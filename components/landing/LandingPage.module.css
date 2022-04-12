@@ -1,0 +1,38 @@
+.cards{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+.card{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    
+    align-items: center;
+    
+    
+}
+.card:hover,
+.card:active,
+.card:focus{
+    transform: scale(1.12);
+    border: 2px solid black;
+    background-color: rebeccapurple;
+}
+
+.card >video{
+    height: 200px;
+    width: 300px;
+}
+
+.card__info{
+   
+    height: 0.3em;
+}
+
+.image{
+    height: 2rem;
+    width: 3rem;
+}
